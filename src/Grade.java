@@ -4,13 +4,11 @@ public class Grade implements Serializable {
     private String subject;
     private String grade;
 
-    // Constructor
     public Grade(String subject, String grade) {
         this.subject = subject;
         this.grade = grade;
     }
 
-    // Getters for subject and grade
     public String getSubject() {
         return subject;
     }
@@ -19,7 +17,6 @@ public class Grade implements Serializable {
         return grade;
     }
 
-    // Optional: Setters if needed
     public void setSubject(String subject) {
         this.subject = subject;
     }
