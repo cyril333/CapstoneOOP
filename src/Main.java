@@ -101,7 +101,7 @@ public class Main {
         gbc.gridx = 1; inputPanel.add(nameField, gbc);
         gbc.gridx = 2; gbc.anchor = GridBagConstraints.WEST;
         JLabel exampleLabel = new JLabel("ex. Antolijao, Ave Cyril G.");
-        exampleLabel.setFont(new Font("Arial", Font.ITALIC, 12));  // Set font to italic
+        exampleLabel.setFont(new Font("Arial", Font.ITALIC, 12));
         inputPanel.add(exampleLabel, gbc);
 
         row++;
